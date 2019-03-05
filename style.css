@@ -1,0 +1,127 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    
+}
+
+body{
+    text-align: center;
+}
+
+button{
+    width: 200px;
+    height: 100px;
+    margin: 20px;
+    background-color: #19B2FF;
+    border: none;
+    border-radius: 10px;
+}
+
+/* 1. Button grow styling*/
+.btn-grow{
+    transition: all 0.5s ease-in-out 0s;
+}
+.btn-grow:hover{
+    transform: scale(1.5);
+}
+/*The end of grow button*/
+
+/* 2. Button shrink styling*/
+.btn-shrink{
+    transition: all 0.5s ease-in-out 0s;
+}
+.btn-shrink:hover{
+    transform: scale(0.8);
+}
+/*The end of shrink button*/
+
+/* 3. Button background changing styling*/
+.btn-background-changing{
+    transition: all 0.5s ease-in-out 0s;
+}
+.btn-background-changing:hover{
+    background-color: #6A0CE8;
+}
+/*The end of background changing button*/
+
+/* 4. Button background and text color changing styling*/
+.btn-textcolor-and-background-changing{
+    transition: all 0.5s ease-in-out 0s;
+}
+.btn-textcolor-and-background-changing:hover{
+    background-color: #7573E8;
+    color: #FFF;
+}
+/*The end of background and text color changing button*/
+
+/* 5. Button box shadow to left styling*/
+.btn-box-shadow-to-left{
+    transition: all 0.5s ease-in-out 0s;
+}
+.btn-box-shadow-to-left:hover{
+    box-shadow: 0 0 0px 5px #7573E8;
+    transform: translateX(-12px);
+}
+/*The end of box shadow to left button*/
+
+/* 6. Button box shadow to right styling*/
+.btn-box-shadow-to-right{
+    transition: all 0.5s ease-in-out 0s;
+}
+.btn-box-shadow-to-right:hover{
+    box-shadow: 0 0 0px 5px #7573E8;
+    transform: translateX(12px);
+}
+/*The end of box shadow to right button*/
+
+/* 7. Button box shadow to top styling*/
+.btn-box-shadow-to-top{
+    transition: all 0.5s ease-in-out 0s;
+}
+.btn-box-shadow-to-top:hover{
+    box-shadow: 0 0 0px 5px #7573E8;
+    transform: translateY(-12px);
+}
+/*The end of box shadow to top button*/
+
+/* 8. Button box shadow to bottom styling*/
+.btn-box-shadow-to-bottom{
+    transition: all 0.5s ease-in-out 0s;
+}
+.btn-box-shadow-to-bottom:hover{
+    box-shadow: 0 0 0px 5px #7573E8;
+    transform: translateY(12px);
+}
+/*The end of box shadow to bottom button*/
+
+/* 8. Button box shadow to bottom styling*/
+.btn-box-shadow-to-bottom{
+    transition: all 0.5s ease-in-out 0s;
+}
+.btn-box-shadow-to-bottom:hover{
+    box-shadow: 0 0 0px 5px #7573E8;
+    transform: translateY(12px);
+}
+/*The end of box shadow to bottom button*/
+
+/* 9. Button box shadow blurry styling*/
+.btn-box-shadow-blurry{
+    transition: all 0.5s ease-in-out 0s;
+}
+.btn-box-shadow-blurry:hover{
+    box-shadow: 0 0 20px #7573E8;
+}
+/*The end of box shadow blurry button*/
+
+/* 9. Button box shadow styling*/
+.btn-box-shadow{
+    transition: all 0.5s ease-in-out 0s;
+}
+.btn-box-shadow:hover{
+    box-shadow: 0 0 0px 5px #7573E8;
+}
+/*The end of box shadow button*/
