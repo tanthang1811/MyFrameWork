@@ -183,9 +183,268 @@ button{
     transition: all 0.5s ease-in-out 0s;
 }
 .btn-inset-border:hover{
-    border: inset 0 0 20px #7573E8;
+    box-shadow: inset 0 0 0px 10px #7573E8;
 }
 /*The end of inset border button*/
+
+/* 15. Button swing styling*/
+.btn-swing{
+    transition: swing 2s ease-in-out 0s;
+}
+@keyframes swing{
+    10%{
+        transform: translateX(-3px);
+    }
+
+    30%{
+        transform: translateX(3px);
+    }
+
+    50%{
+        transform: translateX(-2px);
+    }
+
+    70%{
+        transform: translateX(2px);
+    }
+
+    90%{
+        transform: translateX(-1px);
+    }
+
+    100%{
+        transform: translateX(0px);
+    }
+}
+.btn-swing:hover{
+    animation: swing 2s ease-in-out 1;
+}
+/*The end of swing button*/
+
+/* 16. Button pulse styling*/
+.btn-pulse{
+    transition: pulse 2s ease-in-out 0s;
+}
+@keyframes pulse{
+    10%{
+        transform: scale(1.3);
+    }
+
+    20%{
+        transform: scale(1.2);
+    }
+
+    30%{
+        transform: scale(1.1);
+    }
+
+    40%{
+        transform: scale(1.0);
+    }
+
+    50%{
+        transform: scale(0.9);
+    }
+
+    60%{
+        transform: scale(0.8);
+    }
+
+    70%{
+        transform: scale(0.7);
+    }
+
+    80%{
+        transform: scale(0.8);
+    }
+
+    90%{
+        transform: scale(0.9);
+    }
+
+    100%{
+        transform: scale(1);
+    }
+}
+.btn-pulse:hover{
+    animation: pulse 1s ease-in-out infinite;
+}
+/*The end of pulse button*/
+
+/* 17. Button push styling */ 
+.btn-push{
+    transition: push 0.5s ease-in-out 0s;
+}
+@keyframes push {
+    10% {
+        transform: scale(0.9);
+    }
+
+    50% {
+        transform: scale(0.7);
+    }
+
+    70% {
+        transform: scale(0.9);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+.btn-push:hover{
+    animation: push 0.5s ease-in-out 1; 
+}
+/*The end of push button*/
+
+/* 18. Button pop styling */ 
+.btn-pop{
+    transition: pop 0.5s ease-in-out 0s;
+}
+@keyframes pop {
+    10% {
+        transform: scale(1.1);
+    }
+
+    50% {
+        transform: scale(1.3);
+    }
+
+    70% {
+        transform: scale(1.1);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+.btn-pop:hover{
+    animation: pop 0.5s ease-in-out 1; 
+}
+/*The end of pop button*/
+
+/* 19. Button bounce in styling */ 
+.btn-bounce-in{
+    transition: bounce-in 0.5s ease-in-out 0s;
+}
+@keyframes bounce-in {
+    10% {
+        transform: scale(1.2);
+    }
+
+    30% {
+        transform: scale(1.1);
+    }
+
+    50% {
+        transform: scale(1);
+    }
+
+    70% {
+        transform: scale(1.1);
+    }
+
+    100% {
+        transform: scale(1.2);
+    }
+}
+.btn-bounce-in:hover{
+    animation: bounce-in 0.5s ease-in-out 1; 
+    transform: scale(1.2);
+}
+/*The end of bounce in button*/
+
+/* 20. Button bounce out styling */ 
+.btn-bounce-out{
+    transition: bounce-out 0.5s ease-in-out 0s;
+}
+@keyframes bounce-out {
+    10% {
+        transform: scale(0.8);
+    }
+
+    30% {
+        transform: scale(0.9);
+    }
+
+    50% {
+        transform: scale(1);
+    }
+
+    70% {
+        transform: scale(0.9);
+    }
+
+    100% {
+        transform: scale(0.8);
+    }
+}
+.btn-bounce-out:hover{
+    animation: bounce-out 0.5s ease-in-out 1; 
+    transform: scale(0.8);
+}
+/*The end of bounce out button*/
+
+/*21. Button bob styling*/
+@keyframes bob{
+    10%{
+        transform: translateY(-5px);
+    }
+
+    30%{
+        transform: translateY(-3px);
+    }
+
+    50%{
+        transform: translateY(-1px);
+    }
+
+    70%{
+        transform: translateY(-3px);
+    }
+
+    100%{
+        transform: translateY(-5px);
+    }
+
+}
+.btn-bob:hover{
+    animation: bob 1s ease-in infinite;
+    transform: translateY(-5px);
+}
+/*The end of bob button*/
+
+/*22. Button hang styling*/
+@keyframes hang{
+    10%{
+        transform: translateY(10px);
+    }
+
+    30%{
+        transform: translateY(5px);
+    }
+
+    50%{
+        transform: translateY(3px);
+    }
+
+    70%{
+        transform: translateY(5px);
+    }
+
+    100%{
+        transform: translateY(10px);
+    }
+
+}
+.btn-hang:hover{
+    animation: hang 1s ease-in infinite;
+    transform: translateY(10px);
+}
+/*The end of hang button*/
+
+
+
 
 
 
