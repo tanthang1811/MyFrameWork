@@ -125,3 +125,71 @@ button{
     box-shadow: 0 0 0px 5px #7573E8;
 }
 /*The end of box shadow button*/
+
+/* 9. Button fade in styling*/
+.btn-fade-in{
+    transition: all 0.5s ease-in-out 0s;
+    opacity: 0.5;
+}
+.btn-fade-in:hover{
+    opacity: 1;
+}
+/*The end of fade in button*/
+
+/* 10. Button fade out styling*/
+.btn-fade-out{
+    transition: all 0.5s ease-in-out 0s;
+    opacity: 1;
+}
+.btn-fade-out:hover{
+    opacity: 0.5;
+}
+/*The end of fade out button*/
+
+/* 11. Button rotate styling*/
+.btn-rotate{
+    transition: all 2s ease-in-out 0s;
+}
+.btn-rotate:hover{
+    transform: rotate(360deg);
+}
+/*The end of rotate button*/
+
+/* 12. Button sqr to circle styling*/
+.btn-square-to-circle{
+    transition: all 0.5s ease-in-out 0s;
+    border-radius: 0;
+}
+.btn-square-to-circle:hover{
+    border-radius: 50%;
+}
+/*The end of sqr to shadow button*/
+
+/* 13. Button 3d box shadow styling*/
+.btn-3d-box-shadow{
+    transition: all 0.5s ease-in-out 0s;
+}
+.btn-3d-box-shadow:hover{
+    box-shadow:
+                1px 1px #53a7ea,
+                2px 2px #53a7ea,
+                3px 3px #53a7ea;
+    transform: translateX(-3px);
+}
+/*The end of 3d box shadow button*/
+
+/* 14. Button inset border styling*/
+.btn-inset-border{
+    transition: all 0.5s ease-in-out 0s;
+}
+.btn-inset-border:hover{
+    border: inset 0 0 20px #7573E8;
+}
+/*The end of inset border button*/
+
+
+
+
+
+
+
