@@ -443,6 +443,82 @@ button{
 }
 /*The end of hang button*/
 
+/* 23. Button wooble top right styling*/
+@keyframes wobble-top-right{
+    10%{
+        transform: translate(10px, -10px);
+    }
+
+    20%{
+        transform: translate(7px, -7px);
+    }
+
+    30%{
+        transform: translate(5px, -5px);
+    }
+
+    50%{
+        transform: translate(0px, 0px);
+    }
+
+    60%{
+        transform: translate(-5px, 5px);
+    }
+
+    70%{
+        transform: translate(-7px, 7px);
+    }
+
+    80%{
+        transform: translate(-10px, 10px);
+    }
+
+    90%{
+        transform: translate(-5px, 5px);
+    }
+
+    95%{
+        transform: translate(5px, -5px);
+    }
+
+    100%{
+        transform: translate(0px, 0px);
+    }
+}
+.btn-wooble-top-right:hover {
+    animation: wobble-top-right 0.5s ease-in-out 1; 
+}
+/*The end of wooble top right button*/
+
+/*24. Button buzz styling*/
+
+@keyframes buzz{
+    10% {
+        transform: rotate(10deg) translateX(10px);
+    }
+
+    30% {
+        transform: rotate(5deg) translateX(5px);
+    }
+
+    50% {
+        transform: rotate(0deg) translateX(0px);
+    }
+
+    70% {
+        transform: rotate(-5deg) translateX(-5px);
+    }
+
+    100% {
+        transform: rotate(-10deg) translateX(-10px);
+    }
+}
+
+.btn-buzz:hover{
+    animation: buzz 0.3s ease-in-out infinite;
+}
+/*The end of buzz button*/
+
 
 
 
